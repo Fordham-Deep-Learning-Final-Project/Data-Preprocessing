@@ -1,4 +1,4 @@
-import sys
+import sys, time
 import csv
 from tqdm import tqdm
 from urllib.request import urlretrieve
@@ -14,4 +14,6 @@ with open("dress_patterns.csv") as file:
         try:
             urlretrieve(url, "image/%s.png" % uid)
         except Exception:
+            print(Exception)
             print(row, file=sys.stderr)
+        time.sleep(1)
