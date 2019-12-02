@@ -9,4 +9,4 @@ This version use different packages and workflow, improving the speed and stabil
 
 ## Download.py File (Suggested to be replaced by V2)
 ~~This file is used for download the source image from the csv table. 
-The order of the image folder is followed as the csv table. ~~
+The order of the image folder is followed as the csv table.~~
