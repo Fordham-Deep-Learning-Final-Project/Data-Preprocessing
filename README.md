@@ -14,3 +14,6 @@ The order of the image folder is followed as the csv table.~~
 ## Drop.py 
 Given that we cannot find the original image without red or other color boxes, and not knowing the effect 
 of CoCo framework. I make some simple work to remove the parts outside of the boxes. Just in case if we need it for training.
+
+## Split.py (Not sure whether to use or not)
+Try to split the training and testing datasets. The reason I don't choose to use Sklearn train_test_split is because the imbalance of the data. Another optional solution is to change the weights or manualy add more datas on those class with small amount of datas.
